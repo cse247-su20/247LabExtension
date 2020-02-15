@@ -34,5 +34,5 @@ return: "1 3" because the indices at 1 and 3 hold 4 and 3, respectively. 4 + 3 =
 
 __OBJECTIVE:__
 
-Finish the TwoSum class
+Finish the sumPairs class
 
