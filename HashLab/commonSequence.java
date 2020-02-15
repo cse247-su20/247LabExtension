@@ -7,6 +7,10 @@ public class commonSequence{
 
         // should return "aaa"
         System.out.println(common_n_BP("acgtcaaaagtcaggctaaataaacttaaaatattcaaatcgatcgaaaagatcgatcgggctagctaaa", 3));
+        
+        // should return ""
+        System.out.println(common_n_BP("acgtcaaaagtcaggctaaataaacttaaaatattcaaatcgatcgaaaagatcgatcgggctagctaaa", 1000));
+
     }
 
     /*
@@ -34,7 +38,7 @@ public class commonSequence{
         String mostCommonSequenceSoFar = "";
         int maxOccurences = 0;
 
-        for(int i = 0; i < sequence.length()-n; i++){
+        for(int i = 0; i < sequence.length()-n; i++){ 
             int start = i;
             int end = i + n;
             String seq = sequence.substring(start, end); // get the n-base pair sequence
