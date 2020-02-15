@@ -2,7 +2,7 @@
 
 Can students find solutions online? Absolutely; it's not like these are unsolved problems. Perhaps a mini-writeup explaining their solution would suffice.
 
-## Most common 5 base-pair DNA sequence
+## Most common n base-pair DNA sequence
 
 Baljeet the Bear loves to follow trends. He recently decided to try out 37andMe. 
 
