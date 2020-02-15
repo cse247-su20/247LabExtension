@@ -4,12 +4,16 @@ public class commonSequence{
 
     public static void main(String[] args){
         System.out.println("commonSequence problem");
+
+        // should return "aaa"
+        System.out.println(common_n_BP("acgtcaaaagtcaggctaaataaacttaaaatattcaaatcgatcgaaaagatcgatcgggctagctaaa", 3));
     }
 
     /*
         common_n_BP()
         purpose: in a given DNA sequence, find the most commonly-occuring contiguous
-                sequence of length n.
+                sequence of length n. You can assume overlapping sequences can be considered
+                separately.
         parameters: String 'sequence' represents the DNA sequence to scan
                     int 'n' represents the length of the sequence to be scanning for
         return type: a String that represents the most commonly occuring DNA
@@ -30,7 +34,7 @@ public class commonSequence{
         String mostCommonSequenceSoFar = "";
         int maxOccurences = 0;
 
-        for(int i = 0; i < sequence.length(); i++){
+        for(int i = 0; i < sequence.length()-n; i++){
             int start = i;
             int end = i + n;
             String seq = sequence.substring(start, end); // get the n-base pair sequence
