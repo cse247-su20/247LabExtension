@@ -1,12 +1,14 @@
 # Possible Extensions for Hash Lab
 
+Can students find solutions online? Absolutely; it's not like these are unsolved problems. Perhaps a mini-writeup explaining their solution would suffice.
+
 ## Most common 5 base-pair DNA sequence
 
 Baljeet the Bear loves to follow trends. He recently decided to try out 37andMe. 
 
 Po the Panda Bear recently quit his role as Dragon Warrior, champion of the Valley of Peace. He now works behind the scenes at 37andMe. His job is to identify frequently-occurring DNA sequences that occur throughout genomes. Imagine you are Po.
 
-You have just received Baljeet’s DNA sequence as a string. You must now find the most commonly occurring n-base pair DNA sequence in Baljeet’s DNA. You may *not* assume Baljeet’s DNA length is greater than n.
+You have just received Baljeet’s DNA sequence as a string. You must now find the most commonly occurring n-base pair DNA sequence in Baljeet’s DNA. You may *not* assume Baljeet’s DNA length is greater than n. If there are multiple sequences with the same number of occurences, print the sequence of lowest lexicographic order. (hint: what studio did we compare Strings in?)
 
 Implement a function that does this. As you were the previous Dragon Warrior, we expect no worse than linear amortized time.
 

@@ -49,7 +49,8 @@ public class commonSequence{
                 counter.put(seq, counter.get(seq)+1);
             }
 
-            if(counter.get(seq) > maxOccurences){ // check if it's the new most commonly occuring sequence
+            // check if it's the new most commonly occuring sequence (considering lexi ordering)    
+            if(counter.get(seq) > maxOccurences || (counter.get(seq) == maxOccurences && seq.compareTo(mostCommonSequenceSoFar) < 0)){ 
                 // if so, update values
                 mostCommonSequenceSoFar = seq;
                 maxOccurences = counter.get(seq);
