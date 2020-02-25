@@ -38,7 +38,7 @@ Finish the sumPairs class
 
 ## Train Stops
 
-Baljeet is a busy bear who frequently attends hackathons, and he normally uses trains to get from city to city. The train tracks only go one way, which are specified to Baljeet. 
+Baljeet is a busy bear who frequently attends hackathons, and he normally uses trains to get from city to city. The train tracks only go one way, which are specified to Baljeet. Assume these tracks don't create a cycle (i.e. a --> b --> c --> a).
 
 Can you help Baljeet determine if it's possible to get to his next destination given his current location? Yes, just a boolean.
 
