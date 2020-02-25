@@ -29,6 +29,8 @@ public class TrainGraph1D{
         track.get("epsilon").add("gamma");
 
         System.out.println("can we visit phi starting at alpha?: " + willVisitStation("alpha", "phi"));
+        System.out.println("can we visit gamma starting at delta?: " + willVisitStation("delta", "gamma"));
+        System.out.println("can we visit beta starting at epsilon?: " + willVisitStation("epsilon", "beta"));
 
     }
 

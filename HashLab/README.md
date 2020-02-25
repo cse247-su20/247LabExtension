@@ -36,3 +36,12 @@ __OBJECTIVE:__
 
 Finish the sumPairs class
 
+## Train Stops
+
+Baljeet is a busy bear who frequently attends hackathons, and he normally uses trains to get from city to city. The train tracks only go one way, which are specified to Baljeet. 
+
+Can you help Baljeet determine if it's possible to get to his next destination given his current location? Yes, just a boolean.
+
+__OBJECTIVE:__
+
+Finish the TrainGraph1D class
