@@ -1,18 +1,27 @@
 # Most common base pair problem: instructions
 
+## NOTES / TODO 
+
+1. Need to explain the term 'amortized' in overall instructions, or remove
+it, as students haven't seen that term in 247.   
+2. Change 'n' to 'k' in the problem parameters.  It's more natural for
+`n` to be the length of the full sequence and `k` to be the length of
+the -grams.
+
 ## Guiding questions
 
 1. Give a high-level description in English of an algorithm to solve the
    problem.  For example, your algorithm might start with "Scan through
    the sequence, and for each substring of length n..." etc.
    A: Scan through the sequence, and for each substring of length n
-(i.e. each `n-gram`), increment a count of how many times it's occurred.
-At the end of the process, return the most frequently occurring n-gram .   
+   (i.e. each `n-gram`), increment a count of how many times it's 
+   occurred.  At the end of the process, return the most frequently
+   occurring n-gram .   
 2. Now think about implementing your algorithm.  What data structure
-seems most straightforward to use to implement the algorithm?  Are there
-any issues with using that structure?
+   seems most straightforward to use to implement the algorithm?  Are
+   there any issues with using that structure?
    A: An array seems best as we could directly store/look up counts of
-each n-gram.  However, there are two issues with using an array:    
+	each n-gram.  However, there are two issues with using an array:    
       * It could take a prohibitive amount of space, as we'd need one
         slot for each possible n-gram.
       * We'd need to figure out how to map n-grams to array indices.
